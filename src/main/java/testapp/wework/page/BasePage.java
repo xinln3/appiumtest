@@ -75,8 +75,8 @@ public class BasePage {
 
 
     public void click(By by){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by)).click();
-//        driver.findElement(by).click();
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(by)).click();
+        driver.findElement(by).click();
     }
 
     public MobileElement find (By by) {
